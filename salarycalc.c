@@ -25,6 +25,12 @@ int main()
                     else
                         MonthlyBonus=0;
 
+                    //an additional allowance is provided if work years are over 4
+
+                    if (Years>4){​​​​
+                        AddAllow=(Basic*10)/100;
+                    }​​​​else{​​​​
+                        AddAllow=0;}​​​​
 
 
 //Gross remuneration is the addition of bonuses and basic salary together
