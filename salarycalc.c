@@ -14,7 +14,7 @@ int main()
                     scanf ("%s",&workIn);
 
                     printf ("\n\n");
-    
+
                      //the monthly bonus is calculated according to the sales amount
                     if (sales<1000)
                         MonthlyBonus=(sales*10)/100;
@@ -24,7 +24,21 @@ int main()
                         MonthlyBonus=(sales*20)/100;
                     else
                         MonthlyBonus=0;
-                
-         
+
+
+
+//Gross remuneration is the addition of bonuses and basic salary together
+
+ printf ("Additional Allowance : %d \n",AddAllow);
+
+ printf ("Monthly sales bonus : %d \n",MonthlyBonus);
+
+ printf ("Work in Lima bonus : %d \n",WorkInBonus);
+
+ GrossRem = AddAllow+WorkInBonus+MonthlyBonus+Basic;
+
+ printf ("Gross remuneration : %d \n",GrossRem);
+
+
     return 0;
 }
