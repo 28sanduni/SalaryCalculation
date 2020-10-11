@@ -31,6 +31,14 @@ int main()
                         AddAllow=(Basic*10)/100;
                     }​​​​else{​​​​
                         AddAllow=0;}​​​​
+                        
+                     if (workIn=='L')
+
+                     WorkInBonus=500;
+
+                     else
+
+                     WorkInBonus=0;
 
 
 //Gross remuneration is the addition of bonuses and basic salary together
