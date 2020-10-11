@@ -14,10 +14,17 @@ int main()
                     scanf ("%s",&workIn);
 
                     printf ("\n\n");
+    
+                     //the monthly bonus is calculated according to the sales amount
+                    if (sales<1000)
+                        MonthlyBonus=(sales*10)/100;
+                    else if (sales<2000)
+                        MonthlyBonus=(sales*15)/100;
+                    else if(sales>=2000)
+                        MonthlyBonus=(sales*20)/100;
+                    else
+                        MonthlyBonus=0;
                 
-                
-               
-                
-
+         
     return 0;
 }
