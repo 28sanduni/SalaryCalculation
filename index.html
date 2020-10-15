@@ -1,10 +1,81 @@
 <html>
 <head>
-<title></title>
+<style>
+h1{
+text-align:center;
+opacity:0.7;
+text-shadow:2px 2px yellow;
+}
+body{ background-image:url(1.jpg);background-size:cover;}
+label{color:white;}
+
+</style
 </head>
 <body>
-<h1>
-Welcome to Hacktoberfest 2020
-</h2>
+<h1>Personal Details</h1>
+<table align="center">
+<tr><td>
+<fieldset style="width:0px ; color:black;">
+<legend>Registration</legend>
+<table>
+<form>
+
+<tr>
+<td><label for ="fname">First Name :</label></td>
+<td><input type = "text" placeholder="First name"></td>
+</tr>
+<tr>
+<td><label for="lname">Last Name :</label></td>
+<td><input type = "text" placeholder="Last name"></td>
+</tr>
+<tr>
+<td><label for ="addrs">Address :</label></td>
+<td><input type="text" placeholder="Address"></td>
+</tr>
+<tr>
+<td><label for ="age">Age :</label></td>
+<td><input type="text" placeholder="Age"></td>
+</tr>
+<tr>
+<td><label for="gender">Gender</label></td>
+<td><input type="radio" id="male" name="gender" value="male"><label for="male">Male</label>
+<input type="radio" id ="female" name="gender" value="female"><label for="female">Female</label></td>
+</tr>
+<tr>
+<td><label for="email">Email :</label></td>
+<td><input type="text" placeholder="Email"></td>
+</tr>
+<tr>
+<td><label for="pw">Password :</label></td>
+<td><input type="password" placeholder="Password"></td>
+</tr>
+<tr>
+<td><label for="qualifications">Qualifications :</label></td>
+<td><input type="checkbox" id ="olevel" name="qualifications" value="olevel"><label for="olevel"S>O level</label><input type="checkbox" id="alevel" name ="qualifications" value="alevel><label for="alevel">A level</label>
+</tr>
+<tr>
+<td><label for="country">Country :</label></td>
+<td><select>
+<option>Sri lanka</option>
+<option>America</option>
+<option>China</option>
+<option>India</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><label for="other">Other:</label></td>
+<td><input type ="text" rows="5" cols="5"></td>
+</tr>
+<tr>
+<td><input type="submit" value="Submit"></td>
+<td><input type="reset" value="Reset"><button>Exit</button></td>
+</tr>
+</fieldset>
+</form>
+
+</table>
+
+
 </body>
 </html>
